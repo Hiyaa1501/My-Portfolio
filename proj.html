@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | [Your Name]</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">Hiya</div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h1>Hi, I'm <span class="highlight">Hiya</span></h1>
+        <p>A passionate web developer building clean, functional, and user-centric digital experiences.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Technical Arsenal</h2>
+        <div class="skills-grid">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>MySQL</span>
+            <span>Java</span>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Featured Projects</h2>
+        <div class="project-card">
+            <h3>Eco-Track Dashboard</h3>
+            <p>A JavaScript-based application that tracks personal carbon footprints based on daily habits.</p>
+        </div>
+        <div class="project-card">
+            <h3>Pixel-Perfect UI Kit</h3>
+            <p>A custom CSS framework designed for rapid prototyping of mobile-first web apps.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Get In Touch</h2>
+        <form id="feedbackForm">
+            <input type="text" id="userName" placeholder="Your Name" required>
+            <input type="email" id="userEmail" placeholder="Your Email" required>
+            <textarea id="userMessage" placeholder="Leave a comment..." required></textarea>
+            <button type="submit">Send Feedback</button>
+        </form>
+        <div id="formMessage"></div>
+
+        <h3>Recent Feedback</h3>
+        <div id="feedbackDisplay"></div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Hiya. Built with caffeine and code.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
